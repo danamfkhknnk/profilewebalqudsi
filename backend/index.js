@@ -13,7 +13,7 @@ const { notFound, erroHandler } = require("./middleware/errorMiddleware");
 const app = express();
 app.use(express.json({ extends: true }));
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({ credentials: true, origin: "https://alqudsi.vercel.app" }));
+app.use(cors({ credentials: true, origin: "https://alqudsi.vercel.app/" }));
 app.use(upload());
 app.use("/uploads", express.static(__dirname + "/uploads"));
 app.use("/galeri", express.static(__dirname + "/galeri"));
