@@ -25,7 +25,7 @@ const router = createBrowserRouter([
         <Layout />
       </UserProvider>
     ),
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
     children: [
       { path: "dashboard", element: <Dashboard /> },
       { path: "galeri", element: <GaleriAdmin /> },
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
   },
 
   {
@@ -52,7 +52,7 @@ const router = createBrowserRouter([
         <LoginAdmin />
       </UserProvider>
     ),
-    errorElement: <ErrorPage />,
+    // errorElement: <ErrorPage />,
   },
 ]);
 
