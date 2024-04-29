@@ -54,7 +54,7 @@ function Paket() {
                   <div className="border-t-2 border-secondary/50 py-3 !mt-3">
                     <div className="md:flex justify-between">
                       <p className="text-2xl font-semibold">Rp{harga}</p>
-                      <a href={`https://wa.me/08231231412?text=Halo%20Admin%20AL-Qudsi%20Saya%20Tertarik%20Dengan%20${judul}.%20Bisa%20Infokan%20Lebih%20Lanjut.?%20`}>
+                      <a href={`https://wa.me/628231231412?text=Halo%20Admin%20AL-Qudsi%20Saya%20Tertarik%20Dengan%20${judul}.%20Bisa%20Infokan%20Lebih%20Lanjut.?%20`}>
                         <MdOutlineShoppingCartCheckout className="h-8 w-8" />
                       </a>
                     </div>
